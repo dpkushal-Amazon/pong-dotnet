@@ -5,6 +5,9 @@
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
+// INTENTIONAL BREAKAGE: crash immediately on startup to test EB rollback.
+throw new InvalidOperationException("Intentional startup failure for rollback testing.");
+
 const string page = """
 <!DOCTYPE html>
 <html lang="en">
