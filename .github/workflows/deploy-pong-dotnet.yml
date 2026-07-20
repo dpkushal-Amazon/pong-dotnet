@@ -43,11 +43,12 @@ jobs:
           aws-region: ${{ env.AWS_REGION }}
 
       - name: Deploy to Elastic Beanstalk
-        uses: einaregilsson/beanstalk-deploy@v22
+        uses: aws-actions/aws-elasticbeanstalk-deploy@v1
         with:
-          use_existing_version_if_available: false
-          application_name: ${{ env.EB_APPLICATION_NAME }}
-          environment_name: ${{ env.EB_ENVIRONMENT_NAME }}
-          version_label: "gha-${{ github.run_number }}-${{ github.sha }}"
-          region: ${{ env.AWS_REGION }}
-          deployment_package: deploy.zip
+          aws-region: ${{ env.AWS_REGION }}
+          application-name: ${{ env.EB_APPLICATION_NAME }}
+          environment-name: ${{ env.EB_ENVIRONMENT_NAME }}
+          version-label: "gha-${{ github.run_number }}-${{ github.sha }}"
+          deployment-package-path: deploy.zip
+          create-environment-if-not-exists: false
+          create-application-if-not-exists: false
