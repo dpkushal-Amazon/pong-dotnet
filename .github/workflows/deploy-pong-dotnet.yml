@@ -6,7 +6,7 @@ on:
   workflow_dispatch: {}
 
 env:
-  AWS_REGION: us-west-2
+  AWS_REGION: us-east-1
   EB_APPLICATION_NAME: Pong_dotNet
   EB_ENVIRONMENT_NAME: PongdotNet-env-1
 
