@@ -1,0 +1,5 @@
+/Users/dpkushal/Documents/EB_miniTests/pong-dotnet/publish/pong-dotnet
+/Users/dpkushal/Documents/EB_miniTests/pong-dotnet/publish/pong-dotnet.dll
+/Users/dpkushal/Documents/EB_miniTests/pong-dotnet/publish/pong-dotnet.deps.json
+/Users/dpkushal/Documents/EB_miniTests/pong-dotnet/publish/pong-dotnet.runtimeconfig.json
+/Users/dpkushal/Documents/EB_miniTests/pong-dotnet/publish/pong-dotnet.pdb
