@@ -17,7 +17,7 @@ const string page = """
     body {
       margin: 0; min-height: 100vh;
       display: flex; flex-direction: column; align-items: center; justify-content: center;
-      background: #0b1020; color: #e5e7eb;
+      background: #2e0b3f; color: #e5e7eb;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     }
     h1 { font-weight: 600; margin: 0 0 0.25rem; letter-spacing: 0.02em; }
